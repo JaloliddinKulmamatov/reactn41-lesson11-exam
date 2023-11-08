@@ -1,3 +1,26 @@
-.line {
+.bottom {
+    background-color:#16697A;
+}
+
+.button-footer {
+    padding: 50px 0;
     display: flex;
+    color: #FFF;
+}
+
+.info {
+    margin-right: 30px;
+}
+
+.button-footer h4 {
+    margin-bottom: 20px;
+}
+
+.button-footer h5 {
+    margin-bottom: 10px;
+}
+
+.info-1 {
+    display: flex;
+   margin-bottom: 10px;
 }
