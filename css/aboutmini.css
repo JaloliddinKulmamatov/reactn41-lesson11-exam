@@ -1,0 +1,68 @@
+:root {
+    --text-color: #252B42;
+    --second-text-color: #737373;
+    --btn-text: #00A0C1
+}
+
+#about {
+    background-color: #fafafa;
+    padding: 192px 0 80px;
+    color: var(--text-color)
+}
+
+.about-text {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.about-text h1 {
+    color: var(--text-color, #252b42);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: .2px
+}
+
+.about-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px 40px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.card h1 {
+    margin-bottom: 10px
+}
+
+.card img {
+    margin-bottom: 15px;
+    width: 48px;
+    height: 45px
+}
+
+.card h4 {
+    color: var(--second-text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .1px
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25)
+}

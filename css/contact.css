@@ -1,0 +1,112 @@
+:root {
+    --text-color: #252B42;
+    --second-text-color: #737373;
+    --btn-text: #00A0C1;
+}
+
+
+
+.contact-top {
+    background-color:  #F3F3F3;
+     padding-top: 80px;
+     padding-bottom: 128px;
+}
+
+.contact-text {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contact-text h1 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+.contact-text p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.contact-card {
+    display: flex;
+    gap: 0 30px;
+}
+
+.card-contact {
+    display: flex;
+    padding: 50px 40px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-contact img {
+    margin-bottom: 15px;
+}
+
+.card-contact p {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.ctn-p {
+    margin-bottom: 15px;
+}
+
+.card-contact h4 {
+    margin-bottom: 15px;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+} 
+.img-2 {
+   background-color:  #00A0C1;
+}
+
+.card-contact button {
+   display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color, #FFA62B);    
+    background-color: transparent;
+    color: #FFA62B;
+}
+
+.contact-botton input, label, select ,textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+}
+
+.contact-botton button {
+    display: inline-flex;
+    padding: 15px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--primary-color, #FFA62B);
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+

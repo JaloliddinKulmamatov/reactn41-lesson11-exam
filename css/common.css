@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Monster";
+    src: url(/assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Monster";
+}
+
+.container {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}

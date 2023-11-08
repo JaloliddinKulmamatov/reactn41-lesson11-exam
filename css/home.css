@@ -1,0 +1,93 @@
+:root {
+    --text-color: #252B42;
+    --second-text-color: #737373;
+    --btn-text :#00A0C1;
+}
+
+
+#home {
+    padding-top: 104px;
+    background-image: url(/assets/img/cover.png);
+   background-repeat: no-repeat;
+
+}
+
+.home-left h1 {
+    color:var(--text-color) ;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-bottom: 35px;
+}
+
+.home-left p {
+    color: var(--second-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-bottom: 35px;
+}
+
+
+
+
+.home-btn button {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 10px 36px;
+    gap: 10px;
+    border-radius: 37px;
+    background: #FFA62B;
+    border: 0px ;
+    transition: 0.5s;
+    margin-bottom: 90px;
+}
+
+
+.home-left button:hover {
+    color: var(--btn-text);
+    background-color: #fff;
+    border: 1px solid var(--btn-text);
+}
+
+.home-card {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.card-1, .card-2, .card-3 {
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 35px 40px;
+    transition: 0.5s;
+    background-color: #fff;
+    
+
+}
+
+.card-1 svg {
+    margin-bottom: 13px;
+}
+
+.card-2 svg {
+    margin-bottom: 10px;
+}
+
+.card-3 svg {
+    margin-bottom: 15px;
+}
+
+.card-1 h2 ,.card-2 h2, .card-3 h2 {
+    margin-bottom: 15px;
+}
+.card-3 svg{
+    background-color: #00A0C1;
+    border: 0px;
+}
+
