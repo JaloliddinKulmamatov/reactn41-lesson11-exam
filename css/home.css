@@ -8,7 +8,7 @@
 #home {
     padding-top: 104px;
     background-image: url(/assets/img/cover.png);
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -47,6 +47,7 @@
     border: 0px ;
     transition: 0.5s;
     margin-bottom: 90px;
+    border:1px solid #FFA62B ;
 }
 
 
@@ -66,13 +67,15 @@
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     padding: 35px 40px;
     transition: 0.5s;
-    background-color: #fff;
-    
-
+    fill: currentColor;
 }
 
-.card-1 svg {
+
+
+.card-1 svg *{
+    background-color: #fff;
     margin-bottom: 13px;
+    fill: #00A0C1;
 }
 
 .card-2 svg {
@@ -81,6 +84,7 @@
 
 .card-3 svg {
     margin-bottom: 15px;
+
 }
 
 .card-1 h2 ,.card-2 h2, .card-3 h2 {
@@ -90,4 +94,18 @@
     background-color: #00A0C1;
     border: 0px;
 }
+
+.card-1:hover, .card-2:hover, .card-3:hover {
+    background: var(--secondary-color-1, #00A0C1);
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    color: #FFF;
+
+}
+
+.svg-1:hover {
+    fill:#FFF ;
+}
+
+
+
 
